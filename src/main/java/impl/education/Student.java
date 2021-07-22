@@ -33,4 +33,20 @@ public class Student {
     public float getAvgExamSource() {
         return avgExamSource;
     }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public void setUniversityId(String universityId) {
+        this.universityId = universityId;
+    }
+
+    public void setCurrentCourseNumber(int currentCourseNumber) {
+        this.currentCourseNumber = currentCourseNumber;
+    }
+
+    public void setAvgExamSource(float avgExamSource) {
+        this.avgExamSource = avgExamSource;
+    }
 }

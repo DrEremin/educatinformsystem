@@ -42,4 +42,24 @@ public class University {
     public StudyProfile getMainProfile() {
         return mainProfile;
     }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public void setShortName(String shortName) {
+        this.shortName = shortName;
+    }
+
+    public void setYearOfFoundation(int yearOfFoundation) {
+        this.yearOfFoundation = yearOfFoundation;
+    }
+
+    public void setMainProfile(StudyProfile mainProfile) {
+        this.mainProfile = mainProfile;
+    }
 }
