@@ -10,7 +10,7 @@ public class University {
     private int yearOfFoundation;
     private StudyProfile mainProfile;
 
-    University(String id,
+    public University(String id,
                String fullName,
                String shortName,
                int yearOfFoundation,
@@ -21,5 +21,25 @@ public class University {
         this.shortName = shortName;
         this.yearOfFoundation = yearOfFoundation;
         this.mainProfile = mainProfile;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public String getShortName() {
+        return shortName;
+    }
+
+    public int getYearOfFoundation() {
+        return yearOfFoundation;
+    }
+
+    public StudyProfile getMainProfile() {
+        return mainProfile;
     }
 }

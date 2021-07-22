@@ -12,12 +12,7 @@ public enum StudyProfile {
 
     private String profileName;
 
-    StudyProfile() {
-
-    }
-
     StudyProfile(String profileName) {
         this.profileName = profileName;
     }
-
 }
