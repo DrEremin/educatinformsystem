@@ -2,6 +2,7 @@ package impl.util;
 
 import impl.education.University;
 import impl.education.Student;
+import impl.enums.StudyProfile;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -35,12 +36,31 @@ public class ParseExcel {
         }
     }
 
+    private static String getStudyProfileConstant(String nameProfile) {
+        for (StudyProfile studyProfile : StudyProfile.values()) {
+            if (nameProfile.equals(studyProfile.getProfileName())) {
+                return studyProfile.toString();
+            }
+        }
+        return "";
+    }
+
     private static Student newStudent() {
         return new Student.Builder()
                 .setFullName(currentRow.getCell(0).getStringCellValue())
                 .setUniversityId(currentRow.getCell(1).getStringCellValue())
                 .setCurrentCourseNumber((int)currentRow.getCell(2).getNumericCellValue())
                 .setAvgExamSource((float)currentRow.getCell(3).getNumericCellValue())
+                .build();
+    }
+
+    private static University newUniversity() {
+        return new University.Builder()
+                .setId(currentRow.getCell(0).getStringCellValue())
+                .setFullName(currentRow.getCell(1).getStringCellValue())
+                .setShortName(currentRow.getCell(2).getStringCellValue())
+                .setYearOfFoundation((int)currentRow.getCell(3).getNumericCellValue())
+                .setMainProfile(getStudyProfileConstant(currentRow.getCell(4).getStringCellValue()))
                 .build();
     }
 
