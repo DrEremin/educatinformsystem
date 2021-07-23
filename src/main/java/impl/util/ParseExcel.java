@@ -26,8 +26,8 @@ public class ParseExcel {
     private static void setWorkbook(String path) throws IOException {
         if (!path.equals(pastPath)) {
             File file = new File(path);
-            try (FileInputStream fis = new FileInputStream(file)) {
-                BufferedInputStream bis = new BufferedInputStream(fis);
+            try (FileInputStream fis = new FileInputStream(file);
+                    BufferedInputStream bis = new BufferedInputStream(fis)) {
                 workbook = new XSSFWorkbook(bis);
                 pastPath = path;
             } catch (IOException e) {
