@@ -9,7 +9,7 @@ public class University {
     private String shortName;
     private int yearOfFoundation;
     private StudyProfile mainProfile;
-    private Builder builder;
+    public Builder builder;
 
     private University() {}
 

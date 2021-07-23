@@ -1,9 +1,13 @@
 import impl.education.*;
+import impl.util.ParseExcel;
+
+import java.io.IOException;
+import java.util.LinkedList;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        University university1 = new University.Builder()
+        /*University university1 = new University.Builder()
                 .setId("M1")
                 .setFullName("Первый Санкт-Петербургский " +
                         "государственный медицинский университет " +
@@ -19,6 +23,10 @@ public class App {
                 .setCurrentCourseNumber(5)
                 .setAvgExamSource(4.5f)
                 .build();
-        System.out.println(student1);
+        System.out.println(student1);*/
+        LinkedList<Student> list = ParseExcel.readStudents("src/main/resources/US.xlsx");
+        for (Student student :list) {
+            System.out.println(student);
+        }
     }
 }
