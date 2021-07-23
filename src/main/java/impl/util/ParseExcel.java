@@ -83,4 +83,24 @@ public class ParseExcel {
         }
         return list;
     }
+
+    public static LinkedList<University> readUniversities(String path) throws IOException {
+        setWorkbook(path);
+
+        sheet = workbook.getSheetAt(0);
+        Iterator<Row> iterator = sheet.iterator();
+        iterator.next();
+        University university;
+        LinkedList<University> list = new LinkedList<>();
+
+        while (iterator.hasNext()) {
+            currentRow = iterator.next();
+            university = newUniversity();
+            if (university.getId().equals("")) {
+                break;
+            }
+            list.add(university);
+        }
+        return list;
+    }
 }
