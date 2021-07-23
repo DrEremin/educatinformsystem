@@ -6,16 +6,43 @@ public class Student {
     private String universityId;
     private int currentCourseNumber;
     private float avgExamSource;
+    public Builder builder;
 
-    public Student(String fullName,
-                   String universityId,
-                   int currentCourseNumber,
-                   float avgExamSource) {
+    private Student() {}
 
-        this.fullName = fullName;
-        this.universityId = universityId;
-        this.currentCourseNumber = currentCourseNumber;
-        this.avgExamSource = avgExamSource;
+    public static final class Builder {
+
+        private final Student newStudent;
+
+        public Builder() {
+
+            newStudent = new Student();
+        }
+
+        public Builder setFullName(String fullName) {
+            newStudent.fullName = fullName;
+            return this;
+        }
+
+        public Builder setUniversityId(String universityId) {
+            newStudent.universityId = universityId;
+            return this;
+        }
+
+        public Builder setCurrentCourseNumber(int currentCourseNumber) {
+            newStudent.currentCourseNumber = currentCourseNumber;
+            return this;
+        }
+
+        public Builder setAvgExamSource(float avgExamSource) {
+            newStudent.avgExamSource = avgExamSource;
+            return this;
+        }
+
+        public Student build() {
+            newStudent.builder = this;
+            return newStudent;
+        }
     }
 
     public String getFullName() {
@@ -32,21 +59,5 @@ public class Student {
 
     public float getAvgExamSource() {
         return avgExamSource;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public void setUniversityId(String universityId) {
-        this.universityId = universityId;
-    }
-
-    public void setCurrentCourseNumber(int currentCourseNumber) {
-        this.currentCourseNumber = currentCourseNumber;
-    }
-
-    public void setAvgExamSource(float avgExamSource) {
-        this.avgExamSource = avgExamSource;
     }
 }

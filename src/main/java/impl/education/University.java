@@ -9,18 +9,47 @@ public class University {
     private String shortName;
     private int yearOfFoundation;
     private StudyProfile mainProfile;
+    private Builder builder;
 
-    public University(String id,
-               String fullName,
-               String shortName,
-               int yearOfFoundation,
-               StudyProfile mainProfile) {
+    private University() {}
 
-        this.id = id;
-        this.fullName = fullName;
-        this.shortName = shortName;
-        this.yearOfFoundation = yearOfFoundation;
-        this.mainProfile = mainProfile;
+    public static class Builder {
+
+        private final University newUniversity;
+
+        public Builder() {
+            newUniversity = new University();
+        }
+
+        public Builder setId(String id) {
+            newUniversity.id = id;
+            return this;
+        }
+
+        public Builder setFullName(String fullName) {
+            newUniversity.fullName = fullName;
+            return this;
+        }
+
+        public Builder setShortName(String shortName) {
+            newUniversity.shortName = shortName;
+            return this;
+        }
+
+        public Builder setYearOfFoundation(int yearOfFoundation) {
+            newUniversity.yearOfFoundation = yearOfFoundation;
+            return this;
+        }
+
+        public Builder setMainProfile(String profile) {
+            newUniversity.mainProfile = StudyProfile.valueOf(profile);
+            return this;
+        }
+
+        public University build() {
+            newUniversity.builder = this;
+            return newUniversity;
+        }
     }
 
     public String getId() {
@@ -43,23 +72,4 @@ public class University {
         return mainProfile;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public void setShortName(String shortName) {
-        this.shortName = shortName;
-    }
-
-    public void setYearOfFoundation(int yearOfFoundation) {
-        this.yearOfFoundation = yearOfFoundation;
-    }
-
-    public void setMainProfile(StudyProfile mainProfile) {
-        this.mainProfile = mainProfile;
-    }
 }
