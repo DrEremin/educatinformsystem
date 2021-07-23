@@ -60,4 +60,20 @@ public class Student {
     public float getAvgExamSource() {
         return avgExamSource;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("---------------------------------");
+        stringBuilder.append("\nStudent: ");
+        stringBuilder.append(fullName);
+        stringBuilder.append("\nId of University: ");
+        stringBuilder.append(universityId);
+        stringBuilder.append("\nNumber of a current course: ");
+        stringBuilder.append(currentCourseNumber);
+        stringBuilder.append("\nThe average grade for exams: ");
+        stringBuilder.append(avgExamSource);
+        stringBuilder.append("\n---------------------------------");
+        return stringBuilder.toString();
+    }
 }

@@ -72,4 +72,21 @@ public class University {
         return mainProfile;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("---------------------------------\n");
+        stringBuilder.append(fullName);
+        stringBuilder.append("\n(");
+        stringBuilder.append(shortName);
+        stringBuilder.append(")");
+        stringBuilder.append("\nId of university: ");
+        stringBuilder.append(id);
+        stringBuilder.append("\nYear Of foundation: ");
+        stringBuilder.append(yearOfFoundation);
+        stringBuilder.append("\nMain profile: ");
+        stringBuilder.append(mainProfile.getProfileName());
+        stringBuilder.append("\n---------------------------------");
+        return stringBuilder.toString();
+    }
 }
