@@ -7,7 +7,9 @@ import interf.StudentComparator;
 import interf.UniversityComparator;
 
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.LinkedList;
+import java.util.stream.Stream;
 
 public class App {
     public static void main(String[] args) throws IOException {
@@ -19,12 +21,12 @@ public class App {
         StudentComparator studentComparator = ComparatorSelector.
                 getStudentComparator(ComparatorsOfStudent.FULL_NAME);
         UniversityComparator universityComparator = ComparatorSelector.
-                getUniversityComparator(ComparatorsOfUniversity.FULL_NAME);
-        for (Student student :listOfStudents) {
-            System.out.println(student);
-        }
-        for (University university :listOfSUniversities) {
-            System.out.println(university);
-        }
+                getUniversityComparator(ComparatorsOfUniversity.SHORT_NAME);
+        listOfStudents.stream()
+                .sorted(studentComparator)
+                .forEach(System.out::println);
+        listOfSUniversities.stream()
+                .sorted(universityComparator)
+                .forEach(System.out::println);
     }
 }
