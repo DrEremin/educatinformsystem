@@ -1,6 +1,6 @@
 package impl.enums;
 
-public enum comparatorsOfUniversity {
+public enum ComparatorsOfUniversity {
     ID,
     FULL_NAME,
     SHORT_NAME,

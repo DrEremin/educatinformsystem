@@ -1,9 +1,9 @@
 package impl.comparators;
 
-import interf.universityComparator;
+import interf.UniversityComparator;
 import impl.education.University;
 
-public class yearOfFoundationUniversityComparator implements universityComparator {
+public class YearOfFoundationUniversityComparator implements UniversityComparator {
 
     public int compare(University u1, University u2) {
         return Integer.compare(u1.getYearOfFoundation(), u2.getYearOfFoundation());
