@@ -1,11 +1,5 @@
-import com.google.gson.JsonParseException;
 import impl.education.*;
-import impl.enums.ComparatorsOfStudent;
-import impl.enums.ComparatorsOfUniversity;
-import impl.util.ComparatorSelector;
 import impl.util.ParseExcel;
-import interf.StudentComparator;
-import interf.UniversityComparator;
 import impl.util.JsonUtil;
 import java.io.IOException;
 import java.util.ArrayList;
