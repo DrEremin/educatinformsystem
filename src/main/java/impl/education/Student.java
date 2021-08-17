@@ -1,21 +1,30 @@
 package impl.education;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Student {
 
+    @SerializedName("Name")
     private String fullName;
+
+    @SerializedName("UID")
     private String universityId;
+
+    @SerializedName("Course")
     private int currentCourseNumber;
+
+    @SerializedName("Average score")
     private float avgExamSource;
+
     public Builder builder;
 
     private Student() {}
 
     public static final class Builder {
 
-        private final Student newStudent;
+        private Student newStudent;
 
         public Builder() {
-
             newStudent = new Student();
         }
 
@@ -43,6 +52,10 @@ public class Student {
             newStudent.builder = this;
             return newStudent;
         }
+    }
+
+    public void setBuilderNewStudent(Student student) {
+        this.builder.newStudent = student;
     }
 
     public String getFullName() {

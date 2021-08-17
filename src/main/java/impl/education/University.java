@@ -1,21 +1,32 @@
 package impl.education;
 
+import com.google.gson.annotations.SerializedName;
 import impl.enums.StudyProfile;
 
 public class University {
 
+    @SerializedName("UID")
     private String id;
+
+    @SerializedName("Full title")
     private String fullName;
+
+    @SerializedName("Abbreviation")
     private String shortName;
+
+    @SerializedName("Opening year")
     private int yearOfFoundation;
+
+    @SerializedName("Profile")
     private StudyProfile mainProfile;
+
     public Builder builder;
 
     private University() {}
 
     public static class Builder {
 
-        private final University newUniversity;
+        private University newUniversity;
 
         public Builder() {
             newUniversity = new University();
@@ -50,6 +61,10 @@ public class University {
             newUniversity.builder = this;
             return newUniversity;
         }
+    }
+
+    public void setBuilderNewUniversity(University university) {
+        this.builder.newUniversity = university;
     }
 
     public String getId() {

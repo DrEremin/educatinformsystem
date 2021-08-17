@@ -36,7 +36,7 @@ public class ParseExcel {
         }
     }
 
-    private static String getStudyProfileConstant(String nameProfile) {
+    public static String getStudyProfileConstant(String nameProfile) {
         for (StudyProfile studyProfile : StudyProfile.values()) {
             if (nameProfile.equals(studyProfile.getProfileName())) {
                 return studyProfile.toString();
