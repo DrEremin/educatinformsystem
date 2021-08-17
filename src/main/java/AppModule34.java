@@ -44,7 +44,8 @@ public class AppModule34 {
         System.out.println("++++++++++++++++" +
                 "++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
-        System.out.println("==========================Streams===================================");
+        System.out.println("==========================" +
+                "Streams===================================");
         ArrayList<String> studentsListJsonStream = new ArrayList<>();
         ArrayList<String> universitiesListJsonStream = new ArrayList<>();
         listOfStudents.stream()
@@ -62,6 +63,7 @@ public class AppModule34 {
                     System.out.println(u);
                 });
 
-        System.out.println("====================================================================");
+        System.out.println("==========================" +
+                "==========================================");
     }
 }
