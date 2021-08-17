@@ -1,6 +1,8 @@
+import impl.education.Statistics;
 import impl.education.Student;
 import impl.education.University;
 import impl.util.ParseExcel;
+import impl.util.StatisticsCollector;
 import impl.util.XlsWriter;
 
 import java.io.FileOutputStream;
@@ -15,7 +17,14 @@ public class AppModule35 {
         LinkedList<University> listOfUniversities = ParseExcel
                 .readUniversities("src/main/resources/US.xlsx");
 
+        LinkedList<Statistics> statisticsList = new LinkedList<>(StatisticsCollector
+                .collector(listOfUniversities, listOfStudents));
+
+        for (Statistics statistics : statisticsList) {
+            System.out.println(statistics);
+        }
         /*FileOutputStream fos = XlsWriter.createFileOutputStream("src/main/resources/test.txt");
         fos.write(66);*/
+
     }
 }

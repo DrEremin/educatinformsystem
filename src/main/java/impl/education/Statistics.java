@@ -7,42 +7,55 @@ public class Statistics {
 
     private StudyProfile studyProfile;
     private float avgExamScore;
+    private float totalScoresOfStudents;
     private int numberOfStudentsByProfile;
     private int numberOfUniversitiesByProfile;
     private ArrayList<String> namesOfUniversities;
+    private ArrayList<String> universitiesId;
 
-    Statistics() {
-        studyProfile = null;
+    public Statistics(StudyProfile studyProfile) {
+        this.studyProfile = studyProfile;
         avgExamScore = 0.0f;
+        totalScoresOfStudents = 0.0f;
         numberOfStudentsByProfile = 0;
         numberOfUniversitiesByProfile = 0;
         namesOfUniversities = new ArrayList<>();
+        universitiesId = new ArrayList<>();
     }
 
-    public Statistics(StudyProfile studyProfile,
-                      float avgExamScore,
-                      int numberOfStudentsByProfile,
-                      int numberOfUniversitiesByProfile,
-                      String nameOfUniversity) {
-        this.studyProfile = studyProfile;
-        this.avgExamScore = avgExamScore;
-        this.numberOfStudentsByProfile = numberOfStudentsByProfile;
-        this.numberOfUniversitiesByProfile = numberOfUniversitiesByProfile;
-        this.namesOfUniversities = new ArrayList<>();
-        namesOfUniversities.add(nameOfUniversity);
+    /**
+     * Methods
+     */
+
+    public void incNumberOfUniversitiesByProfile() {
+        numberOfUniversitiesByProfile++;
     }
 
-    public Statistics(StudyProfile studyProfile,
-                      float avgExamScore,
-                      int numberOfStudentsByProfile,
-                      int numberOfUniversitiesByProfile,
-                      ArrayList<String> namesOfUniversities) {
-        this.studyProfile = studyProfile;
-        this.avgExamScore = avgExamScore;
-        this.numberOfStudentsByProfile = numberOfStudentsByProfile;
-        this.numberOfUniversitiesByProfile = numberOfUniversitiesByProfile;
-        this.namesOfUniversities = namesOfUniversities;
+    public void incNumberOfStudentsByProfile() {
+        numberOfStudentsByProfile++;
     }
+
+    public void accumulatorTotalScoresOfStudents(float scoresOfStudent) {
+        totalScoresOfStudents += scoresOfStudent;
+    }
+
+    public void computeAvgExamScore() {
+        if (numberOfStudentsByProfile != 0) {
+            avgExamScore = totalScoresOfStudents / numberOfStudentsByProfile;
+        }
+    }
+
+    public void addNameOfUniversity(String universityName) {
+        namesOfUniversities.add(universityName);
+    }
+
+    public void addUniversitiesId(String universityId) {
+        universitiesId.add(universityId);
+    }
+
+    /**
+     * Getters
+     */
 
     public StudyProfile getStudyProfile() {
         return StudyProfile.valueOf(studyProfile.name());
@@ -50,6 +63,10 @@ public class Statistics {
 
     public float getAvgExamScore() {
         return avgExamScore;
+    }
+
+    public float getTotalScoresOfStudents() {
+        return totalScoresOfStudents;
     }
 
     public int getNumberOfStudentsByProfile() {
@@ -64,28 +81,61 @@ public class Statistics {
         return new ArrayList<>(namesOfUniversities);
     }
 
-    public Statistics setStudyProfile(String profile) {
+    public ArrayList<String> getUniversitiesId() {
+        return new ArrayList<>(universitiesId);
+    }
+
+    /**
+     * Setters
+     */
+
+    public void setStudyProfile(String profile) {
         this.studyProfile = StudyProfile.valueOf(profile);
-        return this;
     }
 
-    public Statistics setAvgExamScore(float avgExamScore) {
+    public void setAvgExamScore(float avgExamScore) {
         this.avgExamScore = avgExamScore;
-        return this;
     }
 
-    public Statistics setNumberOfStudentsByProfile(int numberOfStudentsByProfile) {
+    public void setTotalScoresOfStudents(float totalScoresOfStudents) {
+        this.totalScoresOfStudents = totalScoresOfStudents;
+    }
+
+    public void setNumberOfStudentsByProfile(int numberOfStudentsByProfile) {
         this.numberOfStudentsByProfile = numberOfStudentsByProfile;
-        return this;
     }
 
-    public Statistics setNumberOfUniversitiesByProfile(int numberOfUniversitiesByProfile) {
+    public void setNumberOfUniversitiesByProfile(int numberOfUniversitiesByProfile) {
         this.numberOfUniversitiesByProfile = numberOfUniversitiesByProfile;
-        return this;
     }
 
-    public Statistics setNamesOfUniversities(ArrayList<String> namesOfUniversities) {
+    public void setNamesOfUniversities(ArrayList<String> namesOfUniversities) {
         this.namesOfUniversities = namesOfUniversities;
-        return this;
     }
+
+    public void setIdOfUniversities(ArrayList<String> universitiesId) {
+        this.universitiesId = universitiesId;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("---------------------------------");
+        stringBuilder.append("\nProfile: ");
+        stringBuilder.append(studyProfile.getProfileName());
+        stringBuilder.append("\navgExamScore: ");
+        stringBuilder.append(avgExamScore);
+        stringBuilder.append("\nnumberOfStudentsByProfile: ");
+        stringBuilder.append(numberOfStudentsByProfile);
+        stringBuilder.append("\nnumberOfUniversitiesByProfile: ");
+        stringBuilder.append(numberOfUniversitiesByProfile);
+        stringBuilder.append("\nUniversities:");
+        for (String string : namesOfUniversities) {
+            stringBuilder.append("\n");
+            stringBuilder.append(string);
+        }
+        stringBuilder.append("\n---------------------------------");
+        return stringBuilder.toString();
+    }
+
 }

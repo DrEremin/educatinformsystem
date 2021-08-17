@@ -8,7 +8,9 @@ public enum StudyProfile {
     JOURNALISM ("Журналистика"),
     THEATER_ARTS ("Театральное искусство"),
     MANAGEMENT ("Управление"),
-    COMPUTER_SCIENCES ("Компьютерные науки");
+    COMPUTER_SCIENCES ("Компьютерные науки"),
+    ARCHITECTURE ("Архитектура"),
+    MAX_BOUND ("Предел перечисления");
 
     private String profileName;
 
