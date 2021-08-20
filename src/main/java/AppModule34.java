@@ -46,8 +46,8 @@ public class AppModule34 {
 
         System.out.println("==========================" +
                 "Streams===================================");
-        ArrayList<String> studentsListJsonStream = new ArrayList<>();
-        ArrayList<String> universitiesListJsonStream = new ArrayList<>();
+        //ArrayList<String> studentsListJsonStream = new ArrayList<>();
+        //ArrayList<String> universitiesListJsonStream = new ArrayList<>();
         listOfStudents.stream()
                 .forEach(s -> {
                     String str = JsonUtil.studentSerializer(s);

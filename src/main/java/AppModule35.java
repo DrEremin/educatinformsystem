@@ -18,11 +18,6 @@ public class AppModule35 {
         LinkedList<Statistics> statisticsList = new LinkedList<>(StatisticsCollector
                 .collector(listOfUniversities, listOfStudents));
 
-        /*for (Statistics statistics : statisticsList) {
-            System.out.println(statistics);
-        }*/
         XlsWriter.generationFileXLXS(statisticsList, "src/main/resources/test.xlsx");
-
-
     }
 }
