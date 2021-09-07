@@ -2,18 +2,23 @@ import impl.education.*;
 import impl.util.ParseExcel;
 import impl.util.JsonUtil;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.logging.Logger;
 
 public class AppModule34 {
+
+    private static final Logger logger = Logger.getLogger(AppModule34.class.getName());
+
     public static void main(String[] args) throws IOException {
+
+        logger.info("The application has started successfully");
 
         LinkedList<Student> listOfStudents = ParseExcel
                 .readStudents("src/main/resources/US.xlsx");
         LinkedList<University> listOfUniversities = ParseExcel
                 .readUniversities("src/main/resources/US.xlsx");
 
-        System.out.println("++++++++++++++++" +
+        logger.info("\n++++++++++++++++" +
                 "Collections serialization to JSON+++++++++++++++++++");
 
         String studentsListJson = JsonUtil
@@ -21,13 +26,10 @@ public class AppModule34 {
         String universitiesListJson = JsonUtil
                 .universitiesCollectionSerializer(listOfUniversities);
 
-        System.out.println(studentsListJson);
-        System.out.println(universitiesListJson);
+        logger.info("\n" + studentsListJson);
+        logger.info("\n" + universitiesListJson);
 
-        System.out.println("++++++++++++++++" +
-                "++++++++++++++++++++++++++++++++++++++++++++++++++++");
-
-        System.out.println("+++++++++++++++" +
+        logger.info("\n+++++++++++++++" +
                 "Collections deserialization from JSON++++++++++++++++");
 
         LinkedList<Student> listOfStudents2 = new LinkedList<>(JsonUtil
@@ -36,34 +38,31 @@ public class AppModule34 {
                 .universitiesCollectionDeserializer(universitiesListJson));
 
         for (Student student : listOfStudents2) {
-            System.out.println(student);
+            logger.info("\n" + student);
         }
         for (University university : listOfUniversities2) {
-            System.out.println(university);
+            logger.info("\n" + university);
         }
-        System.out.println("++++++++++++++++" +
-                "++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
-        System.out.println("==========================" +
+        logger.info("\n==========================" +
                 "Streams===================================");
-        //ArrayList<String> studentsListJsonStream = new ArrayList<>();
-        //ArrayList<String> universitiesListJsonStream = new ArrayList<>();
+
         listOfStudents.stream()
                 .forEach(s -> {
                     String str = JsonUtil.studentSerializer(s);
-                    System.out.println(str);
+                    logger.info(str);
                     s = JsonUtil.studentDeserializer(str);
-                    System.out.println(s);
+                    logger.info(s.toString());
                 });
+
         listOfUniversities.stream()
                 .forEach(u -> {
                     String str = JsonUtil.universitySerializer(u);
-                    System.out.println(str);
+                    logger.info(str);
                     u = JsonUtil.universityDeserializer(str);
-                    System.out.println(u);
+                    logger.info(u.toString());
                 });
 
-        System.out.println("==========================" +
-                "==========================================");
+        logger.info("The application has exited successfully");
     }
 }

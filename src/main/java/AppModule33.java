@@ -6,12 +6,18 @@ import impl.util.ComparatorSelector;
 import impl.util.ParseExcel;
 import interf.StudentComparator;
 import interf.UniversityComparator;
+
 import java.io.IOException;
 import java.util.LinkedList;
+import java.util.logging.Logger;
 
 public class AppModule33 {
 
+    private static final Logger logger = Logger.getLogger(AppModule33.class.getName());
+
     public static void main(String[] args) throws IOException {
+
+        logger.info("The application has started successfully");
 
         LinkedList<Student> listOfStudents = ParseExcel
                 .readStudents("src/main/resources/US.xlsx");
@@ -23,9 +29,11 @@ public class AppModule33 {
                 .getUniversityComparator(ComparatorsOfUniversity.SHORT_NAME);
         listOfStudents.stream()
                 .sorted(studentComparator)
-                .forEach(System.out::println);
+                .forEach(s->logger.info(s.toString()));
         listOfUniversities.stream()
                 .sorted(universityComparator)
-                .forEach(System.out::println);
+                .forEach(s->logger.info(s.toString()));
+
+        logger.info("The application has exited successfully");
     }
 }

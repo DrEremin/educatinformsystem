@@ -11,6 +11,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class XlsWriter {
 
@@ -20,6 +22,8 @@ public class XlsWriter {
     private static XSSFSheet sheet;
     private static XSSFRow row;
     private static XSSFCell cell;
+
+    private static final Logger logger = Logger.getLogger(ParseExcel.class.getName());
 
     private XlsWriter() {}
 
@@ -32,7 +36,8 @@ public class XlsWriter {
         try {
             fos = new FileOutputStream(file);
         } catch (FileNotFoundException e) {
-            throw new IOException(e);
+            logger.log(Level.SEVERE, "File not found", e);
+            throw e;
         }
         return fos;
     }

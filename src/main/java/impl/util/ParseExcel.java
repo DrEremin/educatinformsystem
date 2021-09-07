@@ -6,12 +6,12 @@ import impl.enums.StudyProfile;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import java.io.FileInputStream;
-import java.io.File;
-import java.io.BufferedInputStream;
-import java.io.IOException;
+
+import java.io.*;
 import java.util.LinkedList;
 import java.util.Iterator;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ParseExcel {
 
@@ -19,6 +19,8 @@ public class ParseExcel {
     private static XSSFSheet sheet;
     private static Row currentRow;
     private static String pastPath = "";
+
+    private static final Logger logger = Logger.getLogger(ParseExcel.class.getName());
 
     private ParseExcel() {
     }
@@ -28,10 +30,17 @@ public class ParseExcel {
             File file = new File(path);
             try (FileInputStream fis = new FileInputStream(file);
                     BufferedInputStream bis = new BufferedInputStream(fis)) {
+                if (!file.getName().endsWith(".xlsx")) {
+                    throw new IOException();
+                }
                 workbook = new XSSFWorkbook(bis);
                 pastPath = path;
-            } catch (IOException e) {
-                throw e;
+            } catch (FileNotFoundException fnfe) {
+                logger.log(Level.SEVERE, "File not found", fnfe);
+                throw fnfe;
+            } catch (IOException ioe) {
+                logger.log(Level.SEVERE, "Wrong file format", ioe);
+                throw ioe;
             }
         }
     }

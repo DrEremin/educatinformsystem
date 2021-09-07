@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-09-07T21:27:21.448486Z</date>
+  <millis>1631050041448</millis>
+  <nanos>486000</nanos>
+  <sequence>0</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The application has started successfully</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.344129Z</date>
+  <millis>1631050042344</millis>
+  <nanos>129000</nanos>
+  <sequence>1</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+++++++++++++++++Collections serialization to JSON+++++++++++++++++++</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.419882Z</date>
+  <millis>1631050042419</millis>
+  <nanos>882000</nanos>
+  <sequence>2</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+[
+  {
+    "Name": "Попов Сергей Сергеевич",
+    "UID": "Ж1",
+    "Course": 1,
+    "Average score": 4.3,
+    "builder": {}
+  },
+  {
+    "Name": "Антовнов Владислав Николаевич",
+    "UID": "Ю1",
+    "Course": 2,
+    "Average score": 3.8,
+    "builder": {}
+  },
+  {
+    "Name": "Морозова Анастасия Андреена",
+    "UID": "М2",
+    "Course": 3,
+    "Average score": 4.1,
+    "builder": {}
+  },
+  {
+    "Name": "Евстафьев Олег Никитич",
+    "UID": "Э1",
+    "Course": 4,
+    "Average score": 3.5,
+    "builder": {}
+  },
+  {
+    "Name": "Бордовская Мария Ивановна",
+    "UID": "М1",
+    "Course": 5,
+    "Average score": 5.0,
+    "builder": {}
+  },
+  {
+    "Name": "Петров Игорь Борисович",
+    "UID": "Т1",
+    "Course": 3,
+    "Average score": 4.9,
+    "builder": {}
+  },
+  {
+    "Name": "Мартынов Андрей Владимирович",
+    "UID": "И1",
+    "Course": 2,
+    "Average score": 4.0,
+    "builder": {}
+  },
+  {
+    "Name": "Глебова Ирина Петровна",
+    "UID": "У1",
+    "Course": 1,
+    "Average score": 5.0,
+    "builder": {}
+  }
+]</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.421342Z</date>
+  <millis>1631050042421</millis>
+  <nanos>342000</nanos>
+  <sequence>3</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+[
+  {
+    "UID": "М1",
+    "Full title": "Первый Санкт-Петербургский государственный медицинский университет им. акад. И.П.Павлова",
+    "Abbreviation": "ПСПбГМУ им. И.П.Павлова",
+    "Opening year": 1897,
+    "Profile": "MEDICINE",
+    "builder": {}
+  },
+  {
+    "UID": "Ю1",
+    "Full title": "Российский государственный университет правосудия",
+    "Abbreviation": "РГУП",
+    "Opening year": 1998,
+    "Profile": "LEGAL_SCIENCE",
+    "builder": {}
+  },
+  {
+    "UID": "Э1",
+    "Full title": "Санкт-Петербургский государственный экономический университет",
+    "Abbreviation": "СПбГЭУ",
+    "Opening year": 1930,
+    "Profile": "ECONOMICS",
+    "builder": {}
+  },
+  {
+    "UID": "Ж1",
+    "Full title": "Московский государственный институт международных отношений",
+    "Abbreviation": "МГИМО",
+    "Opening year": 1944,
+    "Profile": "JOURNALISM",
+    "builder": {}
+  },
+  {
+    "UID": "Т1",
+    "Full title": "Государственный институт театрального искусства",
+    "Abbreviation": "ГИТИС",
+    "Opening year": 1878,
+    "Profile": "THEATER_ARTS",
+    "builder": {}
+  },
+  {
+    "UID": "М2",
+    "Full title": "Санкт-Петербургский государственный медицинский университет имени И. И. Мечникова",
+    "Abbreviation": "СЗГМУ им. И. И. Мечникова",
+    "Opening year": 1907,
+    "Profile": "MEDICINE",
+    "builder": {}
+  },
+  {
+    "UID": "У1",
+    "Full title": "Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации",
+    "Abbreviation": "РАНХиГС",
+    "Opening year": 2010,
+    "Profile": "MANAGEMENT",
+    "builder": {}
+  },
+  {
+    "UID": "И1",
+    "Full title": "Санкт-Петербургский национальный исследовательский университет информационных технологий, механики и оптики",
+    "Abbreviation": "ИТМО",
+    "Opening year": 1900,
+    "Profile": "COMPUTER_SCIENCES",
+    "builder": {}
+  },
+  {
+    "UID": "А1",
+    "Full title": "Санкт-Петербургский государственный архитектурно-строительный университет",
+    "Abbreviation": "СПбГАСУ",
+    "Opening year": 1832,
+    "Profile": "ARCHITECTURE",
+    "builder": {}
+  }
+]</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.422982Z</date>
+  <millis>1631050042422</millis>
+  <nanos>982000</nanos>
+  <sequence>4</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
++++++++++++++++Collections deserialization from JSON++++++++++++++++</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.427999Z</date>
+  <millis>1631050042427</millis>
+  <nanos>999000</nanos>
+  <sequence>5</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Student: Попов Сергей Сергеевич
+Id of University: Ж1
+Number of a current course: 1
+The average grade for exams: 4.3
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.429209Z</date>
+  <millis>1631050042429</millis>
+  <nanos>209000</nanos>
+  <sequence>6</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Student: Антовнов Владислав Николаевич
+Id of University: Ю1
+Number of a current course: 2
+The average grade for exams: 3.8
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.430446Z</date>
+  <millis>1631050042430</millis>
+  <nanos>446000</nanos>
+  <sequence>7</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Student: Морозова Анастасия Андреена
+Id of University: М2
+Number of a current course: 3
+The average grade for exams: 4.1
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.431427Z</date>
+  <millis>1631050042431</millis>
+  <nanos>427000</nanos>
+  <sequence>8</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Student: Евстафьев Олег Никитич
+Id of University: Э1
+Number of a current course: 4
+The average grade for exams: 3.5
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.432238Z</date>
+  <millis>1631050042432</millis>
+  <nanos>238000</nanos>
+  <sequence>9</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Student: Бордовская Мария Ивановна
+Id of University: М1
+Number of a current course: 5
+The average grade for exams: 5.0
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.434451Z</date>
+  <millis>1631050042434</millis>
+  <nanos>451000</nanos>
+  <sequence>10</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Student: Петров Игорь Борисович
+Id of University: Т1
+Number of a current course: 3
+The average grade for exams: 4.9
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.435341Z</date>
+  <millis>1631050042435</millis>
+  <nanos>341000</nanos>
+  <sequence>11</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Student: Мартынов Андрей Владимирович
+Id of University: И1
+Number of a current course: 2
+The average grade for exams: 4.0
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.436301Z</date>
+  <millis>1631050042436</millis>
+  <nanos>301000</nanos>
+  <sequence>12</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Student: Глебова Ирина Петровна
+Id of University: У1
+Number of a current course: 1
+The average grade for exams: 5.0
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.437252Z</date>
+  <millis>1631050042437</millis>
+  <nanos>252000</nanos>
+  <sequence>13</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Первый Санкт-Петербургский государственный медицинский университет им. акад. И.П.Павлова
+(ПСПбГМУ им. И.П.Павлова)
+Id of university: М1
+Year Of foundation: 1897
+Main profile: Медицина
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.438069Z</date>
+  <millis>1631050042438</millis>
+  <nanos>69000</nanos>
+  <sequence>14</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Российский государственный университет правосудия
+(РГУП)
+Id of university: Ю1
+Year Of foundation: 1998
+Main profile: Юриспруденция
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.438945Z</date>
+  <millis>1631050042438</millis>
+  <nanos>945000</nanos>
+  <sequence>15</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Санкт-Петербургский государственный экономический университет
+(СПбГЭУ)
+Id of university: Э1
+Year Of foundation: 1930
+Main profile: Экономика
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.439898Z</date>
+  <millis>1631050042439</millis>
+  <nanos>898000</nanos>
+  <sequence>16</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Московский государственный институт международных отношений
+(МГИМО)
+Id of university: Ж1
+Year Of foundation: 1944
+Main profile: Журналистика
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.440583Z</date>
+  <millis>1631050042440</millis>
+  <nanos>583000</nanos>
+  <sequence>17</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Государственный институт театрального искусства
+(ГИТИС)
+Id of university: Т1
+Year Of foundation: 1878
+Main profile: Театральное искусство
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.441258Z</date>
+  <millis>1631050042441</millis>
+  <nanos>258000</nanos>
+  <sequence>18</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Санкт-Петербургский государственный медицинский университет имени И. И. Мечникова
+(СЗГМУ им. И. И. Мечникова)
+Id of university: М2
+Year Of foundation: 1907
+Main profile: Медицина
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.441899Z</date>
+  <millis>1631050042441</millis>
+  <nanos>899000</nanos>
+  <sequence>19</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации
+(РАНХиГС)
+Id of university: У1
+Year Of foundation: 2010
+Main profile: Управление
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.442942Z</date>
+  <millis>1631050042442</millis>
+  <nanos>942000</nanos>
+  <sequence>20</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Санкт-Петербургский национальный исследовательский университет информационных технологий, механики и оптики
+(ИТМО)
+Id of university: И1
+Year Of foundation: 1900
+Main profile: Компьютерные науки
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.443631Z</date>
+  <millis>1631050042443</millis>
+  <nanos>631000</nanos>
+  <sequence>21</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+---------------------------------
+Санкт-Петербургский государственный архитектурно-строительный университет
+(СПбГАСУ)
+Id of university: А1
+Year Of foundation: 1832
+Main profile: Архитектура
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.444253Z</date>
+  <millis>1631050042444</millis>
+  <nanos>253000</nanos>
+  <sequence>22</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>
+==========================Streams===================================</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.445879Z</date>
+  <millis>1631050042445</millis>
+  <nanos>879000</nanos>
+  <sequence>23</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>{
+  "Name": "Попов Сергей Сергеевич",
+  "UID": "Ж1",
+  "Course": 1,
+  "Average score": 4.3,
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.446750Z</date>
+  <millis>1631050042446</millis>
+  <nanos>750000</nanos>
+  <sequence>24</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Student: Попов Сергей Сергеевич
+Id of University: Ж1
+Number of a current course: 1
+The average grade for exams: 4.3
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.447669Z</date>
+  <millis>1631050042447</millis>
+  <nanos>669000</nanos>
+  <sequence>25</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>{
+  "Name": "Антовнов Владислав Николаевич",
+  "UID": "Ю1",
+  "Course": 2,
+  "Average score": 3.8,
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.448715Z</date>
+  <millis>1631050042448</millis>
+  <nanos>715000</nanos>
+  <sequence>26</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Student: Антовнов Владислав Николаевич
+Id of University: Ю1
+Number of a current course: 2
+The average grade for exams: 3.8
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.449514Z</date>
+  <millis>1631050042449</millis>
+  <nanos>514000</nanos>
+  <sequence>27</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>{
+  "Name": "Морозова Анастасия Андреена",
+  "UID": "М2",
+  "Course": 3,
+  "Average score": 4.1,
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.450219Z</date>
+  <millis>1631050042450</millis>
+  <nanos>219000</nanos>
+  <sequence>28</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Student: Морозова Анастасия Андреена
+Id of University: М2
+Number of a current course: 3
+The average grade for exams: 4.1
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.450932Z</date>
+  <millis>1631050042450</millis>
+  <nanos>932000</nanos>
+  <sequence>29</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>{
+  "Name": "Евстафьев Олег Никитич",
+  "UID": "Э1",
+  "Course": 4,
+  "Average score": 3.5,
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.451615Z</date>
+  <millis>1631050042451</millis>
+  <nanos>615000</nanos>
+  <sequence>30</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Student: Евстафьев Олег Никитич
+Id of University: Э1
+Number of a current course: 4
+The average grade for exams: 3.5
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.452391Z</date>
+  <millis>1631050042452</millis>
+  <nanos>391000</nanos>
+  <sequence>31</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>{
+  "Name": "Бордовская Мария Ивановна",
+  "UID": "М1",
+  "Course": 5,
+  "Average score": 5.0,
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.453170Z</date>
+  <millis>1631050042453</millis>
+  <nanos>170000</nanos>
+  <sequence>32</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Student: Бордовская Мария Ивановна
+Id of University: М1
+Number of a current course: 5
+The average grade for exams: 5.0
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.454085Z</date>
+  <millis>1631050042454</millis>
+  <nanos>85000</nanos>
+  <sequence>33</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>{
+  "Name": "Петров Игорь Борисович",
+  "UID": "Т1",
+  "Course": 3,
+  "Average score": 4.9,
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.454888Z</date>
+  <millis>1631050042454</millis>
+  <nanos>888000</nanos>
+  <sequence>34</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Student: Петров Игорь Борисович
+Id of University: Т1
+Number of a current course: 3
+The average grade for exams: 4.9
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.455621Z</date>
+  <millis>1631050042455</millis>
+  <nanos>621000</nanos>
+  <sequence>35</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>{
+  "Name": "Мартынов Андрей Владимирович",
+  "UID": "И1",
+  "Course": 2,
+  "Average score": 4.0,
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.456265Z</date>
+  <millis>1631050042456</millis>
+  <nanos>265000</nanos>
+  <sequence>36</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Student: Мартынов Андрей Владимирович
+Id of University: И1
+Number of a current course: 2
+The average grade for exams: 4.0
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.457206Z</date>
+  <millis>1631050042457</millis>
+  <nanos>206000</nanos>
+  <sequence>37</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>{
+  "Name": "Глебова Ирина Петровна",
+  "UID": "У1",
+  "Course": 1,
+  "Average score": 5.0,
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.458449Z</date>
+  <millis>1631050042458</millis>
+  <nanos>449000</nanos>
+  <sequence>38</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$0</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Student: Глебова Ирина Петровна
+Id of University: У1
+Number of a current course: 1
+The average grade for exams: 5.0
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.459473Z</date>
+  <millis>1631050042459</millis>
+  <nanos>473000</nanos>
+  <sequence>39</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>{
+  "UID": "М1",
+  "Full title": "Первый Санкт-Петербургский государственный медицинский университет им. акад. И.П.Павлова",
+  "Abbreviation": "ПСПбГМУ им. И.П.Павлова",
+  "Opening year": 1897,
+  "Profile": "MEDICINE",
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.460229Z</date>
+  <millis>1631050042460</millis>
+  <nanos>229000</nanos>
+  <sequence>40</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Первый Санкт-Петербургский государственный медицинский университет им. акад. И.П.Павлова
+(ПСПбГМУ им. И.П.Павлова)
+Id of university: М1
+Year Of foundation: 1897
+Main profile: Медицина
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.460924Z</date>
+  <millis>1631050042460</millis>
+  <nanos>924000</nanos>
+  <sequence>41</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>{
+  "UID": "Ю1",
+  "Full title": "Российский государственный университет правосудия",
+  "Abbreviation": "РГУП",
+  "Opening year": 1998,
+  "Profile": "LEGAL_SCIENCE",
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.461640Z</date>
+  <millis>1631050042461</millis>
+  <nanos>640000</nanos>
+  <sequence>42</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Российский государственный университет правосудия
+(РГУП)
+Id of university: Ю1
+Year Of foundation: 1998
+Main profile: Юриспруденция
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.462379Z</date>
+  <millis>1631050042462</millis>
+  <nanos>379000</nanos>
+  <sequence>43</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>{
+  "UID": "Э1",
+  "Full title": "Санкт-Петербургский государственный экономический университет",
+  "Abbreviation": "СПбГЭУ",
+  "Opening year": 1930,
+  "Profile": "ECONOMICS",
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.462995Z</date>
+  <millis>1631050042462</millis>
+  <nanos>995000</nanos>
+  <sequence>44</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Санкт-Петербургский государственный экономический университет
+(СПбГЭУ)
+Id of university: Э1
+Year Of foundation: 1930
+Main profile: Экономика
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.463587Z</date>
+  <millis>1631050042463</millis>
+  <nanos>587000</nanos>
+  <sequence>45</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>{
+  "UID": "Ж1",
+  "Full title": "Московский государственный институт международных отношений",
+  "Abbreviation": "МГИМО",
+  "Opening year": 1944,
+  "Profile": "JOURNALISM",
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.464228Z</date>
+  <millis>1631050042464</millis>
+  <nanos>228000</nanos>
+  <sequence>46</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Московский государственный институт международных отношений
+(МГИМО)
+Id of university: Ж1
+Year Of foundation: 1944
+Main profile: Журналистика
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.464926Z</date>
+  <millis>1631050042464</millis>
+  <nanos>926000</nanos>
+  <sequence>47</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>{
+  "UID": "Т1",
+  "Full title": "Государственный институт театрального искусства",
+  "Abbreviation": "ГИТИС",
+  "Opening year": 1878,
+  "Profile": "THEATER_ARTS",
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.465519Z</date>
+  <millis>1631050042465</millis>
+  <nanos>519000</nanos>
+  <sequence>48</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Государственный институт театрального искусства
+(ГИТИС)
+Id of university: Т1
+Year Of foundation: 1878
+Main profile: Театральное искусство
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.466148Z</date>
+  <millis>1631050042466</millis>
+  <nanos>148000</nanos>
+  <sequence>49</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>{
+  "UID": "М2",
+  "Full title": "Санкт-Петербургский государственный медицинский университет имени И. И. Мечникова",
+  "Abbreviation": "СЗГМУ им. И. И. Мечникова",
+  "Opening year": 1907,
+  "Profile": "MEDICINE",
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.466747Z</date>
+  <millis>1631050042466</millis>
+  <nanos>747000</nanos>
+  <sequence>50</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Санкт-Петербургский государственный медицинский университет имени И. И. Мечникова
+(СЗГМУ им. И. И. Мечникова)
+Id of university: М2
+Year Of foundation: 1907
+Main profile: Медицина
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.467368Z</date>
+  <millis>1631050042467</millis>
+  <nanos>368000</nanos>
+  <sequence>51</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>{
+  "UID": "У1",
+  "Full title": "Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации",
+  "Abbreviation": "РАНХиГС",
+  "Opening year": 2010,
+  "Profile": "MANAGEMENT",
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.468748Z</date>
+  <millis>1631050042468</millis>
+  <nanos>748000</nanos>
+  <sequence>52</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации
+(РАНХиГС)
+Id of university: У1
+Year Of foundation: 2010
+Main profile: Управление
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.469864Z</date>
+  <millis>1631050042469</millis>
+  <nanos>864000</nanos>
+  <sequence>53</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>{
+  "UID": "И1",
+  "Full title": "Санкт-Петербургский национальный исследовательский университет информационных технологий, механики и оптики",
+  "Abbreviation": "ИТМО",
+  "Opening year": 1900,
+  "Profile": "COMPUTER_SCIENCES",
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.470524Z</date>
+  <millis>1631050042470</millis>
+  <nanos>524000</nanos>
+  <sequence>54</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Санкт-Петербургский национальный исследовательский университет информационных технологий, механики и оптики
+(ИТМО)
+Id of university: И1
+Year Of foundation: 1900
+Main profile: Компьютерные науки
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.471149Z</date>
+  <millis>1631050042471</millis>
+  <nanos>149000</nanos>
+  <sequence>55</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>{
+  "UID": "А1",
+  "Full title": "Санкт-Петербургский государственный архитектурно-строительный университет",
+  "Abbreviation": "СПбГАСУ",
+  "Opening year": 1832,
+  "Profile": "ARCHITECTURE",
+  "builder": {}
+}</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.471769Z</date>
+  <millis>1631050042471</millis>
+  <nanos>769000</nanos>
+  <sequence>56</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>---------------------------------
+Санкт-Петербургский государственный архитектурно-строительный университет
+(СПбГАСУ)
+Id of university: А1
+Year Of foundation: 1832
+Main profile: Архитектура
+---------------------------------</message>
+</record>
+<record>
+  <date>2021-09-07T21:27:22.472236Z</date>
+  <millis>1631050042472</millis>
+  <nanos>236000</nanos>
+  <sequence>57</sequence>
+  <logger>AppModule34</logger>
+  <level>INFO</level>
+  <class>AppModule34</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The application has exited successfully</message>
+</record>
+</log>
