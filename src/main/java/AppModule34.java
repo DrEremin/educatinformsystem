@@ -7,7 +7,8 @@ import java.util.logging.Logger;
 
 public class AppModule34 {
 
-    private static final Logger logger = Logger.getLogger(AppModule34.class.getName());
+    private static final Logger logger = Logger
+            .getLogger(AppModule34.class.getName());
 
     public static void main(String[] args) throws IOException {
 
