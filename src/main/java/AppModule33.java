@@ -7,6 +7,7 @@ import impl.util.ParseExcel;
 import interf.StudentComparator;
 import interf.UniversityComparator;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.logging.Logger;
@@ -20,9 +21,21 @@ public class AppModule33 {
         logger.info("The application has started successfully");
 
         LinkedList<Student> listOfStudents = ParseExcel
-                .readStudents("src/main/resources/US.xlsx");
+                .readStudents("src"
+                        + File.separator
+                        + "main"
+                        + File.separator
+                        + "resources"
+                        + File.separator
+                        + "US.xlsx");
         LinkedList<University> listOfUniversities = ParseExcel
-                .readUniversities("src/main/resources/US.xlsx");
+                .readUniversities("src"
+                        + File.separator
+                        + "main"
+                        + File.separator
+                        + "resources"
+                        + File.separator
+                        + "US.xlsx");
         StudentComparator studentComparator = ComparatorSelector
                 .getStudentComparator(ComparatorsOfStudent.FULL_NAME);
         UniversityComparator universityComparator = ComparatorSelector

@@ -1,6 +1,8 @@
 import impl.education.*;
 import impl.util.ParseExcel;
 import impl.util.JsonUtil;
+
+import java.io.File;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.logging.Logger;
@@ -15,9 +17,21 @@ public class AppModule34 {
         logger.info("The application has started successfully");
 
         LinkedList<Student> listOfStudents = ParseExcel
-                .readStudents("src/main/resources/US.xlsx");
+                .readStudents("src"
+                        + File.separator
+                        + "main"
+                        + File.separator
+                        + "resources"
+                        + File.separator
+                        + "US.xlsx");
         LinkedList<University> listOfUniversities = ParseExcel
-                .readUniversities("src/main/resources/US.xlsx");
+                .readUniversities("src"
+                        + File.separator
+                        + "main"
+                        + File.separator
+                        + "resources"
+                        + File.separator
+                        + "US.xlsx");
 
         logger.info("\n++++++++++++++++" +
                 "Collections serialization to JSON+++++++++++++++++++");

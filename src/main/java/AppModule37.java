@@ -5,12 +5,13 @@ import impl.enums.ComparatorsOfStudent;
 import impl.enums.ComparatorsOfUniversity;
 import impl.rest.StructOfDoc;
 import impl.util.ComparatorSelector;
-import impl.util.JavaClassWriterToXmlFile;
 import impl.util.ParseExcel;
+import impl.util.JavaClassWriterToXmlFile;
 import impl.util.StatisticsCollector;
 import interf.StudentComparator;
 import interf.UniversityComparator;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.logging.Logger;
@@ -25,9 +26,21 @@ public class AppModule37 {
         logger.info("The application has started successfully");
 
         LinkedList<Student> listOfStudents = ParseExcel
-                .readStudents("src/main/resources/US.xlsx");
+                .readStudents("src"
+                        + File.separator
+                        + "main"
+                        + File.separator
+                        + "resources"
+                        + File.separator
+                        + "US.xlsx");
         LinkedList<University> listOfUniversities = ParseExcel
-                .readUniversities("src/main/resources/US.xlsx");
+                .readUniversities("src"
+                        + File.separator
+                        + "main"
+                        + File.separator
+                        + "resources"
+                        + File.separator
+                        + "US.xlsx");
         LinkedList<Statistics> statisticsList = new LinkedList<>(StatisticsCollector
                 .collector(listOfUniversities, listOfStudents));
 
@@ -43,8 +56,7 @@ public class AppModule37 {
                 , listOfUniversities
                 , statisticsList);
 
-        JavaClassWriterToXmlFile.writeObjectToXml(structOfDoc
-                , "src/main/resources/education.xml");
+        JavaClassWriterToXmlFile.writeObjectToXml(structOfDoc, "xmlReqs");
 
         logger.info("The application has exited successfully");
     }
