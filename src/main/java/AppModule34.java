@@ -9,6 +9,12 @@ import java.util.logging.Logger;
 
 public class AppModule34 {
 
+    /*
+       В "Run/Debug Configurations", в VM-options прописал путь:
+       -Djava.util.logging.config.file=/home/ivan/Programming/
+       IdeaProjects/educatinformsystem/src/main/resources/log.properties
+     */
+
     private static final Logger logger = Logger
             .getLogger(AppModule34.class.getName());
 
@@ -37,9 +43,9 @@ public class AppModule34 {
                 "Collections serialization to JSON+++++++++++++++++++");
 
         String studentsListJson = JsonUtil
-                .studentsCollectionSerializer(listOfStudents);
+                .educationalUnitCollectionSerializer(listOfStudents);
         String universitiesListJson = JsonUtil
-                .universitiesCollectionSerializer(listOfUniversities);
+                .educationalUnitCollectionSerializer(listOfUniversities);
 
         logger.info("\n" + studentsListJson);
         logger.info("\n" + universitiesListJson);
@@ -64,7 +70,7 @@ public class AppModule34 {
 
         listOfStudents.stream()
                 .forEach(s -> {
-                    String str = JsonUtil.studentSerializer(s);
+                    String str = JsonUtil.educationalUnitSerializer(s);
                     logger.info(str);
                     s = JsonUtil.studentDeserializer(str);
                     logger.info(s.toString());
@@ -72,7 +78,7 @@ public class AppModule34 {
 
         listOfUniversities.stream()
                 .forEach(u -> {
-                    String str = JsonUtil.universitySerializer(u);
+                    String str = JsonUtil.educationalUnitSerializer(u);
                     logger.info(str);
                     u = JsonUtil.universityDeserializer(str);
                     logger.info(u.toString());

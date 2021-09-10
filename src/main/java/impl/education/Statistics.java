@@ -1,9 +1,11 @@
 package impl.education;
 
 import impl.enums.StudyProfile;
+import interf.EducationalUnit;
+
 import java.util.ArrayList;
 
-public class Statistics {
+public class Statistics implements EducationalUnit {
 
     private StudyProfile studyProfile;
     private float avgExamScore;
@@ -88,6 +90,9 @@ public class Statistics {
     /**
      * Setters
      */
+
+    @Override
+    public void setBuilder(EducationalUnit educationalUnit) {}
 
     public void setStudyProfile(String profile) {
         this.studyProfile = StudyProfile.valueOf(profile);

@@ -2,8 +2,9 @@ package impl.education;
 
 import com.google.gson.annotations.SerializedName;
 import impl.enums.StudyProfile;
+import interf.EducationalUnit;
 
-public class University {
+public class University implements EducationalUnit {
 
     @SerializedName("UID")
     private String id;
@@ -63,8 +64,8 @@ public class University {
         }
     }
 
-    public void setBuilderNewUniversity(University university) {
-        this.builder.newUniversity = university;
+    public void setBuilder(EducationalUnit educationalUnit) {
+        this.builder.newUniversity = (University) educationalUnit;
     }
 
     public String getId() {

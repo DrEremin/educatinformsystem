@@ -4,10 +4,7 @@ import impl.education.University;
 import impl.enums.ComparatorsOfStudent;
 import impl.enums.ComparatorsOfUniversity;
 import impl.rest.StructOfDoc;
-import impl.util.ComparatorSelector;
-import impl.util.ParseExcel;
-import impl.util.JavaClassWriterToXmlFile;
-import impl.util.StatisticsCollector;
+import impl.util.*;
 import interf.StudentComparator;
 import interf.UniversityComparator;
 
@@ -17,6 +14,12 @@ import java.util.LinkedList;
 import java.util.logging.Logger;
 
 public class AppModule37 {
+
+    /*
+       В "Run/Debug Configurations", в VM-options прописал путь:
+       -Djava.util.logging.config.file=/home/ivan/Programming/
+       IdeaProjects/educatinformsystem/src/main/resources/log.properties
+     */
 
     private static final Logger logger = Logger
             .getLogger(AppModule35.class.getName());
@@ -57,6 +60,8 @@ public class AppModule37 {
                 , statisticsList);
 
         JavaClassWriterToXmlFile.writeObjectToXml(structOfDoc, "xmlReqs");
+
+        JavaClassWriterToJsonFile.writeObjectToJson(structOfDoc, "jsonReqs");
 
         logger.info("The application has exited successfully");
     }

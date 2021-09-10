@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2021-09-07T21:27:21.448486Z</date>
-  <millis>1631050041448</millis>
-  <nanos>486000</nanos>
+  <date>2021-09-10T11:42:09.932811Z</date>
+  <millis>1631274129932</millis>
+  <nanos>811000</nanos>
   <sequence>0</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>The application has started successfully</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.344129Z</date>
-  <millis>1631050042344</millis>
-  <nanos>129000</nanos>
+  <date>2021-09-10T11:42:10.899442Z</date>
+  <millis>1631274130899</millis>
+  <nanos>442000</nanos>
   <sequence>1</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -27,9 +27,9 @@
 ++++++++++++++++Collections serialization to JSON+++++++++++++++++++</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.419882Z</date>
-  <millis>1631050042419</millis>
-  <nanos>882000</nanos>
+  <date>2021-09-10T11:42:10.963138Z</date>
+  <millis>1631274130963</millis>
+  <nanos>138000</nanos>
   <sequence>2</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -97,9 +97,9 @@
 ]</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.421342Z</date>
-  <millis>1631050042421</millis>
-  <nanos>342000</nanos>
+  <date>2021-09-10T11:42:10.964729Z</date>
+  <millis>1631274130964</millis>
+  <nanos>729000</nanos>
   <sequence>3</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -183,9 +183,9 @@
 ]</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.422982Z</date>
-  <millis>1631050042422</millis>
-  <nanos>982000</nanos>
+  <date>2021-09-10T11:42:10.967332Z</date>
+  <millis>1631274130967</millis>
+  <nanos>332000</nanos>
   <sequence>4</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -196,9 +196,9 @@
 +++++++++++++++Collections deserialization from JSON++++++++++++++++</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.427999Z</date>
-  <millis>1631050042427</millis>
-  <nanos>999000</nanos>
+  <date>2021-09-10T11:42:10.973859Z</date>
+  <millis>1631274130973</millis>
+  <nanos>859000</nanos>
   <sequence>5</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -214,9 +214,9 @@ The average grade for exams: 4.3
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.429209Z</date>
-  <millis>1631050042429</millis>
-  <nanos>209000</nanos>
+  <date>2021-09-10T11:42:10.975131Z</date>
+  <millis>1631274130975</millis>
+  <nanos>131000</nanos>
   <sequence>6</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -232,9 +232,9 @@ The average grade for exams: 3.8
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.430446Z</date>
-  <millis>1631050042430</millis>
-  <nanos>446000</nanos>
+  <date>2021-09-10T11:42:10.975979Z</date>
+  <millis>1631274130975</millis>
+  <nanos>979000</nanos>
   <sequence>7</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -250,9 +250,9 @@ The average grade for exams: 4.1
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.431427Z</date>
-  <millis>1631050042431</millis>
-  <nanos>427000</nanos>
+  <date>2021-09-10T11:42:10.976865Z</date>
+  <millis>1631274130976</millis>
+  <nanos>865000</nanos>
   <sequence>8</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -268,9 +268,9 @@ The average grade for exams: 3.5
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.432238Z</date>
-  <millis>1631050042432</millis>
-  <nanos>238000</nanos>
+  <date>2021-09-10T11:42:10.977835Z</date>
+  <millis>1631274130977</millis>
+  <nanos>835000</nanos>
   <sequence>9</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -286,9 +286,9 @@ The average grade for exams: 5.0
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.434451Z</date>
-  <millis>1631050042434</millis>
-  <nanos>451000</nanos>
+  <date>2021-09-10T11:42:10.979128Z</date>
+  <millis>1631274130979</millis>
+  <nanos>128000</nanos>
   <sequence>10</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -304,9 +304,9 @@ The average grade for exams: 4.9
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.435341Z</date>
-  <millis>1631050042435</millis>
-  <nanos>341000</nanos>
+  <date>2021-09-10T11:42:10.980303Z</date>
+  <millis>1631274130980</millis>
+  <nanos>303000</nanos>
   <sequence>11</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -322,9 +322,9 @@ The average grade for exams: 4.0
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.436301Z</date>
-  <millis>1631050042436</millis>
-  <nanos>301000</nanos>
+  <date>2021-09-10T11:42:10.981672Z</date>
+  <millis>1631274130981</millis>
+  <nanos>672000</nanos>
   <sequence>12</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -340,9 +340,9 @@ The average grade for exams: 5.0
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.437252Z</date>
-  <millis>1631050042437</millis>
-  <nanos>252000</nanos>
+  <date>2021-09-10T11:42:10.983018Z</date>
+  <millis>1631274130983</millis>
+  <nanos>18000</nanos>
   <sequence>13</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -359,9 +359,9 @@ Main profile: Медицина
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.438069Z</date>
-  <millis>1631050042438</millis>
-  <nanos>69000</nanos>
+  <date>2021-09-10T11:42:10.983976Z</date>
+  <millis>1631274130983</millis>
+  <nanos>976000</nanos>
   <sequence>14</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -378,9 +378,9 @@ Main profile: Юриспруденция
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.438945Z</date>
-  <millis>1631050042438</millis>
-  <nanos>945000</nanos>
+  <date>2021-09-10T11:42:10.985277Z</date>
+  <millis>1631274130985</millis>
+  <nanos>277000</nanos>
   <sequence>15</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -397,9 +397,9 @@ Main profile: Экономика
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.439898Z</date>
-  <millis>1631050042439</millis>
-  <nanos>898000</nanos>
+  <date>2021-09-10T11:42:10.986376Z</date>
+  <millis>1631274130986</millis>
+  <nanos>376000</nanos>
   <sequence>16</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -416,9 +416,9 @@ Main profile: Журналистика
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.440583Z</date>
-  <millis>1631050042440</millis>
-  <nanos>583000</nanos>
+  <date>2021-09-10T11:42:10.987446Z</date>
+  <millis>1631274130987</millis>
+  <nanos>446000</nanos>
   <sequence>17</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -435,9 +435,9 @@ Main profile: Театральное искусство
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.441258Z</date>
-  <millis>1631050042441</millis>
-  <nanos>258000</nanos>
+  <date>2021-09-10T11:42:10.988517Z</date>
+  <millis>1631274130988</millis>
+  <nanos>517000</nanos>
   <sequence>18</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -454,9 +454,9 @@ Main profile: Медицина
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.441899Z</date>
-  <millis>1631050042441</millis>
-  <nanos>899000</nanos>
+  <date>2021-09-10T11:42:10.989517Z</date>
+  <millis>1631274130989</millis>
+  <nanos>517000</nanos>
   <sequence>19</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -473,9 +473,9 @@ Main profile: Управление
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.442942Z</date>
-  <millis>1631050042442</millis>
-  <nanos>942000</nanos>
+  <date>2021-09-10T11:42:10.990560Z</date>
+  <millis>1631274130990</millis>
+  <nanos>560000</nanos>
   <sequence>20</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -492,9 +492,9 @@ Main profile: Компьютерные науки
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.443631Z</date>
-  <millis>1631050042443</millis>
-  <nanos>631000</nanos>
+  <date>2021-09-10T11:42:10.991646Z</date>
+  <millis>1631274130991</millis>
+  <nanos>646000</nanos>
   <sequence>21</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -511,9 +511,9 @@ Main profile: Архитектура
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.444253Z</date>
-  <millis>1631050042444</millis>
-  <nanos>253000</nanos>
+  <date>2021-09-10T11:42:10.992707Z</date>
+  <millis>1631274130992</millis>
+  <nanos>707000</nanos>
   <sequence>22</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -524,9 +524,9 @@ Main profile: Архитектура
 ==========================Streams===================================</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.445879Z</date>
-  <millis>1631050042445</millis>
-  <nanos>879000</nanos>
+  <date>2021-09-10T11:42:10.994507Z</date>
+  <millis>1631274130994</millis>
+  <nanos>507000</nanos>
   <sequence>23</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -542,9 +542,9 @@ Main profile: Архитектура
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.446750Z</date>
-  <millis>1631050042446</millis>
-  <nanos>750000</nanos>
+  <date>2021-09-10T11:42:10.995811Z</date>
+  <millis>1631274130995</millis>
+  <nanos>811000</nanos>
   <sequence>24</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -559,9 +559,9 @@ The average grade for exams: 4.3
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.447669Z</date>
-  <millis>1631050042447</millis>
-  <nanos>669000</nanos>
+  <date>2021-09-10T11:42:10.996991Z</date>
+  <millis>1631274130996</millis>
+  <nanos>991000</nanos>
   <sequence>25</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -577,9 +577,9 @@ The average grade for exams: 4.3
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.448715Z</date>
-  <millis>1631050042448</millis>
-  <nanos>715000</nanos>
+  <date>2021-09-10T11:42:10.998115Z</date>
+  <millis>1631274130998</millis>
+  <nanos>115000</nanos>
   <sequence>26</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -594,9 +594,9 @@ The average grade for exams: 3.8
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.449514Z</date>
-  <millis>1631050042449</millis>
-  <nanos>514000</nanos>
+  <date>2021-09-10T11:42:10.999290Z</date>
+  <millis>1631274130999</millis>
+  <nanos>290000</nanos>
   <sequence>27</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -612,9 +612,9 @@ The average grade for exams: 3.8
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.450219Z</date>
-  <millis>1631050042450</millis>
-  <nanos>219000</nanos>
+  <date>2021-09-10T11:42:11.000340Z</date>
+  <millis>1631274131000</millis>
+  <nanos>340000</nanos>
   <sequence>28</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -629,9 +629,9 @@ The average grade for exams: 4.1
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.450932Z</date>
-  <millis>1631050042450</millis>
-  <nanos>932000</nanos>
+  <date>2021-09-10T11:42:11.001428Z</date>
+  <millis>1631274131001</millis>
+  <nanos>428000</nanos>
   <sequence>29</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -647,9 +647,9 @@ The average grade for exams: 4.1
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.451615Z</date>
-  <millis>1631050042451</millis>
-  <nanos>615000</nanos>
+  <date>2021-09-10T11:42:11.002518Z</date>
+  <millis>1631274131002</millis>
+  <nanos>518000</nanos>
   <sequence>30</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -664,9 +664,9 @@ The average grade for exams: 3.5
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.452391Z</date>
-  <millis>1631050042452</millis>
-  <nanos>391000</nanos>
+  <date>2021-09-10T11:42:11.003669Z</date>
+  <millis>1631274131003</millis>
+  <nanos>669000</nanos>
   <sequence>31</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -682,9 +682,9 @@ The average grade for exams: 3.5
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.453170Z</date>
-  <millis>1631050042453</millis>
-  <nanos>170000</nanos>
+  <date>2021-09-10T11:42:11.004713Z</date>
+  <millis>1631274131004</millis>
+  <nanos>713000</nanos>
   <sequence>32</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -699,9 +699,9 @@ The average grade for exams: 5.0
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.454085Z</date>
-  <millis>1631050042454</millis>
-  <nanos>85000</nanos>
+  <date>2021-09-10T11:42:11.006044Z</date>
+  <millis>1631274131006</millis>
+  <nanos>44000</nanos>
   <sequence>33</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -717,9 +717,9 @@ The average grade for exams: 5.0
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.454888Z</date>
-  <millis>1631050042454</millis>
-  <nanos>888000</nanos>
+  <date>2021-09-10T11:42:11.007093Z</date>
+  <millis>1631274131007</millis>
+  <nanos>93000</nanos>
   <sequence>34</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -734,9 +734,9 @@ The average grade for exams: 4.9
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.455621Z</date>
-  <millis>1631050042455</millis>
-  <nanos>621000</nanos>
+  <date>2021-09-10T11:42:11.008065Z</date>
+  <millis>1631274131008</millis>
+  <nanos>65000</nanos>
   <sequence>35</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -752,9 +752,9 @@ The average grade for exams: 4.9
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.456265Z</date>
-  <millis>1631050042456</millis>
-  <nanos>265000</nanos>
+  <date>2021-09-10T11:42:11.009033Z</date>
+  <millis>1631274131009</millis>
+  <nanos>33000</nanos>
   <sequence>36</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -769,9 +769,9 @@ The average grade for exams: 4.0
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.457206Z</date>
-  <millis>1631050042457</millis>
-  <nanos>206000</nanos>
+  <date>2021-09-10T11:42:11.010235Z</date>
+  <millis>1631274131010</millis>
+  <nanos>235000</nanos>
   <sequence>37</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -787,9 +787,9 @@ The average grade for exams: 4.0
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.458449Z</date>
-  <millis>1631050042458</millis>
-  <nanos>449000</nanos>
+  <date>2021-09-10T11:42:11.012074Z</date>
+  <millis>1631274131012</millis>
+  <nanos>74000</nanos>
   <sequence>38</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -804,9 +804,9 @@ The average grade for exams: 5.0
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.459473Z</date>
-  <millis>1631050042459</millis>
-  <nanos>473000</nanos>
+  <date>2021-09-10T11:42:11.013808Z</date>
+  <millis>1631274131013</millis>
+  <nanos>808000</nanos>
   <sequence>39</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -823,9 +823,9 @@ The average grade for exams: 5.0
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.460229Z</date>
-  <millis>1631050042460</millis>
-  <nanos>229000</nanos>
+  <date>2021-09-10T11:42:11.014843Z</date>
+  <millis>1631274131014</millis>
+  <nanos>843000</nanos>
   <sequence>40</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -841,9 +841,9 @@ Main profile: Медицина
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.460924Z</date>
-  <millis>1631050042460</millis>
-  <nanos>924000</nanos>
+  <date>2021-09-10T11:42:11.015830Z</date>
+  <millis>1631274131015</millis>
+  <nanos>830000</nanos>
   <sequence>41</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -860,9 +860,9 @@ Main profile: Медицина
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.461640Z</date>
-  <millis>1631050042461</millis>
-  <nanos>640000</nanos>
+  <date>2021-09-10T11:42:11.016955Z</date>
+  <millis>1631274131016</millis>
+  <nanos>955000</nanos>
   <sequence>42</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -878,9 +878,9 @@ Main profile: Юриспруденция
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.462379Z</date>
-  <millis>1631050042462</millis>
-  <nanos>379000</nanos>
+  <date>2021-09-10T11:42:11.019455Z</date>
+  <millis>1631274131019</millis>
+  <nanos>455000</nanos>
   <sequence>43</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -897,9 +897,9 @@ Main profile: Юриспруденция
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.462995Z</date>
-  <millis>1631050042462</millis>
-  <nanos>995000</nanos>
+  <date>2021-09-10T11:42:11.020610Z</date>
+  <millis>1631274131020</millis>
+  <nanos>610000</nanos>
   <sequence>44</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -915,9 +915,9 @@ Main profile: Экономика
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.463587Z</date>
-  <millis>1631050042463</millis>
-  <nanos>587000</nanos>
+  <date>2021-09-10T11:42:11.021710Z</date>
+  <millis>1631274131021</millis>
+  <nanos>710000</nanos>
   <sequence>45</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -934,9 +934,9 @@ Main profile: Экономика
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.464228Z</date>
-  <millis>1631050042464</millis>
-  <nanos>228000</nanos>
+  <date>2021-09-10T11:42:11.022749Z</date>
+  <millis>1631274131022</millis>
+  <nanos>749000</nanos>
   <sequence>46</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -952,9 +952,9 @@ Main profile: Журналистика
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.464926Z</date>
-  <millis>1631050042464</millis>
-  <nanos>926000</nanos>
+  <date>2021-09-10T11:42:11.024172Z</date>
+  <millis>1631274131024</millis>
+  <nanos>172000</nanos>
   <sequence>47</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -971,9 +971,9 @@ Main profile: Журналистика
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.465519Z</date>
-  <millis>1631050042465</millis>
-  <nanos>519000</nanos>
+  <date>2021-09-10T11:42:11.025371Z</date>
+  <millis>1631274131025</millis>
+  <nanos>371000</nanos>
   <sequence>48</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -989,9 +989,9 @@ Main profile: Театральное искусство
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.466148Z</date>
-  <millis>1631050042466</millis>
-  <nanos>148000</nanos>
+  <date>2021-09-10T11:42:11.026538Z</date>
+  <millis>1631274131026</millis>
+  <nanos>538000</nanos>
   <sequence>49</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -1008,9 +1008,9 @@ Main profile: Театральное искусство
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.466747Z</date>
-  <millis>1631050042466</millis>
-  <nanos>747000</nanos>
+  <date>2021-09-10T11:42:11.027528Z</date>
+  <millis>1631274131027</millis>
+  <nanos>528000</nanos>
   <sequence>50</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -1026,9 +1026,9 @@ Main profile: Медицина
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.467368Z</date>
-  <millis>1631050042467</millis>
-  <nanos>368000</nanos>
+  <date>2021-09-10T11:42:11.028242Z</date>
+  <millis>1631274131028</millis>
+  <nanos>242000</nanos>
   <sequence>51</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -1045,9 +1045,9 @@ Main profile: Медицина
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.468748Z</date>
-  <millis>1631050042468</millis>
-  <nanos>748000</nanos>
+  <date>2021-09-10T11:42:11.029739Z</date>
+  <millis>1631274131029</millis>
+  <nanos>739000</nanos>
   <sequence>52</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -1063,9 +1063,9 @@ Main profile: Управление
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.469864Z</date>
-  <millis>1631050042469</millis>
-  <nanos>864000</nanos>
+  <date>2021-09-10T11:42:11.030995Z</date>
+  <millis>1631274131030</millis>
+  <nanos>995000</nanos>
   <sequence>53</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -1082,9 +1082,9 @@ Main profile: Управление
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.470524Z</date>
-  <millis>1631050042470</millis>
-  <nanos>524000</nanos>
+  <date>2021-09-10T11:42:11.031819Z</date>
+  <millis>1631274131031</millis>
+  <nanos>819000</nanos>
   <sequence>54</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -1100,9 +1100,9 @@ Main profile: Компьютерные науки
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.471149Z</date>
-  <millis>1631050042471</millis>
-  <nanos>149000</nanos>
+  <date>2021-09-10T11:42:11.032570Z</date>
+  <millis>1631274131032</millis>
+  <nanos>570000</nanos>
   <sequence>55</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -1119,9 +1119,9 @@ Main profile: Компьютерные науки
 }</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.471769Z</date>
-  <millis>1631050042471</millis>
-  <nanos>769000</nanos>
+  <date>2021-09-10T11:42:11.033611Z</date>
+  <millis>1631274131033</millis>
+  <nanos>611000</nanos>
   <sequence>56</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>
@@ -1137,9 +1137,9 @@ Main profile: Архитектура
 ---------------------------------</message>
 </record>
 <record>
-  <date>2021-09-07T21:27:22.472236Z</date>
-  <millis>1631050042472</millis>
-  <nanos>236000</nanos>
+  <date>2021-09-10T11:42:11.034234Z</date>
+  <millis>1631274131034</millis>
+  <nanos>234000</nanos>
   <sequence>57</sequence>
   <logger>AppModule34</logger>
   <level>INFO</level>

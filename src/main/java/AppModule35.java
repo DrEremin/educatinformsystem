@@ -12,6 +12,12 @@ import impl.util.XlsWriter;
 
 public class AppModule35 {
 
+    /*
+       В "Run/Debug Configurations", в VM-options прописал путь:
+       -Djava.util.logging.config.file=/home/ivan/Programming/
+       IdeaProjects/educatinformsystem/src/main/resources/log.properties
+     */
+
     private static final Logger logger = Logger
             .getLogger(AppModule35.class.getName());
 

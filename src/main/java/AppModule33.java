@@ -14,7 +14,14 @@ import java.util.logging.Logger;
 
 public class AppModule33 {
 
-    private static final Logger logger = Logger.getLogger(AppModule33.class.getName());
+    /*
+       В "Run/Debug Configurations", в VM-options прописал путь:
+       -Djava.util.logging.config.file=/home/ivan/Programming/
+       IdeaProjects/educatinformsystem/src/main/resources/log.properties
+     */
+
+    private static final Logger logger = Logger
+            .getLogger(AppModule33.class.getName());
 
     public static void main(String[] args) throws IOException {
 

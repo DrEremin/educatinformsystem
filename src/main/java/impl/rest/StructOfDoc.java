@@ -4,6 +4,7 @@ import impl.education.Statistics;
 import impl.education.Student;
 import impl.education.University;
 
+import com.google.gson.annotations.SerializedName;
 import javax.xml.bind.annotation.*;
 import java.util.Collection;
 import java.util.LinkedList;
@@ -44,8 +45,13 @@ public class StructOfDoc {
             , "avgScore" })
     public static class StudentEntry {
 
+        @SerializedName("studentName")
         private final String STUDENT_NAME;
+
+        @SerializedName("universityId")
         private final String UNIVERSITY_ID;
+
+        @SerializedName("avgScore")
         private final float AVG_SCORE;
 
         private StudentEntry(Student student) {
@@ -76,8 +82,13 @@ public class StructOfDoc {
             , "universityProfile" })
     public static class UniversityEntry {
 
+        @SerializedName("universityId")
         private final String UNIVERSITY_ID;
+
+        @SerializedName("universityName")
         private final String UNIVERSITY_NAME;
+
+        @SerializedName("universityProfile")
         private final String UNIVERSITY_PROFILE;
 
         private UniversityEntry(University university) {
@@ -107,7 +118,10 @@ public class StructOfDoc {
             , "avgScore"})
     public static class StatisticsEntry {
 
+        @SerializedName("universityProfile")
         private final String UNIVERSITY_PROFILE;
+
+        @SerializedName("avgScore")
         private final float AVG_SCORE;
 
         private StatisticsEntry(Statistics statistics) {

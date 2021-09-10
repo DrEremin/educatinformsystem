@@ -1,8 +1,9 @@
 package impl.education;
 
 import com.google.gson.annotations.SerializedName;
+import interf.EducationalUnit;
 
-public class Student {
+public class Student implements EducationalUnit {
 
     @SerializedName("Name")
     private String fullName;
@@ -54,8 +55,9 @@ public class Student {
         }
     }
 
-    public void setBuilderNewStudent(Student student) {
-        this.builder.newStudent = student;
+    @Override
+    public void setBuilder(EducationalUnit educationalUnit) {
+        this.builder.newStudent = (Student) educationalUnit;
     }
 
     public String getFullName() {
