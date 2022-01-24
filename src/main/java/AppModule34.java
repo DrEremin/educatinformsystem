@@ -7,13 +7,18 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.logging.Logger;
 
-public class AppModule34 {
+/**
+ * In this class, the following events occur in the main function: File US.xlsx
+ * is parsed using class ParserExel, as a result, lists with objects-models
+ * Student and University are obtained from file US.xlsx; Serialization of
+ * lists with objects-models into json using class JsonUtil and deserialization
+ * of json-strings back into lists; Output lists and json-strings to console
+ * and file .log.
+ * In VM-options specify:
+ * -Djava.util.logging.config.file=path to file log.properties
+ */
 
-    /*
-       В "Run/Debug Configurations", в VM-options прописал путь:
-       -Djava.util.logging.config.file=/home/ivan/Programming/
-       IdeaProjects/educatinformsystem/src/main/resources/log.properties
-     */
+public class AppModule34 {
 
     private static final Logger logger = Logger
             .getLogger(AppModule34.class.getName());

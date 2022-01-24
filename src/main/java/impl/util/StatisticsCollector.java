@@ -21,8 +21,8 @@ public class StatisticsCollector {
                 final Statistics statistics = new Statistics(profile);
 
                 /**
-                 * Перебор потока университетов,
-                 * соответствующих очередному учебному профилю
+                 * Enumarating the stream of universities corresponding to the this
+                 * educational profile
                  */
 
                 uniCollection.stream().filter(u -> u.getMainProfile() == profile)
@@ -42,7 +42,7 @@ public class StatisticsCollector {
             for (String uid : statistics.getUniversitiesId()) {
 
                 /**
-                 * Перебор потока студентов, соответствующих очередному университету
+                 * Enumerating the flow of students corresponding to this university
                  */
 
                 studCollection.stream().filter(s -> s.getUniversityId().equals(uid))
